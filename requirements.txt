@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+streamlit
+audio-recorder-streamlit
+python-dotenv
+requests
+groq
+langchain
+langchain-community
+langchain-groq
+langchain-huggingface
+faiss-cpu
+pypdf
+pydantic
+python-multipart
