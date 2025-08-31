@@ -1,0 +1,15 @@
+# Backend service (Flask or FastAPI)
+  - type: web
+    name: my-backend
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python -m uvicorn main:app --host 0.0.0.0 --port $PORT"
+    plan: free
+
+  # Frontend service (Streamlit)
+  - type: web
+    name: my-frontend
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run front.py --server.port $PORT --server.address 0.0.0.0"
+    plan: free
