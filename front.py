@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # ---- API Configuration ----
-API_BASE = "http://localhost:8000"
+API_BASE = "https://chatbot-backend-m9su.onrender.com"
 
 # ---- Custom CSS for Clean Interface ----
 st.markdown("""
@@ -516,4 +516,5 @@ def main():
 
 # ---- Run App ----
 if __name__ == "__main__":
+
     main()
