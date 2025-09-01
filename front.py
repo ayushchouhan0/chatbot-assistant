@@ -84,6 +84,7 @@ st.markdown("""
         padding: 40px;
         text-align: center;
         margin: 20px 0;
+        color: #000000;
     }
     
     .upload-success {
@@ -518,3 +519,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
